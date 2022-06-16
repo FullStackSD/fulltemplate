@@ -26,6 +26,7 @@ h1, h2 {
     margin-left: 20px;
    
 }
+
 /* navigation links */
 
 #menu { 
@@ -111,10 +112,12 @@ position: relative;
 }
 /* Routes section */
 #travel-head {
-    font-size: 250%;
+    font-size: 260%;
     font-weight: 300px;
     text-align: left;
     padding-top: 30px;
+    padding-bottom: 30px;
+    margin-left: 20px;
 
 }
 #routes {
@@ -126,14 +129,20 @@ position: relative;
 #left-about{
     padding-top :30px;
     width: 50%;
+    text-align: left;
     float: left;
     background-color: #f9fafb;
+    letter-spacing: 2px;
+    line-height: 4px;
+    margin-left: 30px;
 
 }
 #via-photo {
-    background: url('../images/vialaplata1.jpg');
-    height: 300px;
-    width: 300px;
+    background: url('../images/vialaplata1.jpg') no-repeat;
+    height: 400px;
+    width: 600px;
+    float: right;
+   
 }
 
     
@@ -152,16 +161,22 @@ position: relative;
     background-color: #34495E;
 }
 hr {
-    border-top: 1px solid #338FFF;
-    width: 100%;
+    border-top: 10px dotted #FFC300;
+    width: 50%;
     margin: 5px 0;
 }
 .left-about-heading {
     width: 100%;
-    text-align: center;
+    text-align: left;
     line-height: 20px;
     clear:both;
     margin-bottom: 50px;
+    
+}
+.left-about-heading h2 {
+    font-size: 250%;
+    text-align: left;
+    margin-bottom: 10px;
 }
 
 .right-about-heading {
