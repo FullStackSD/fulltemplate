@@ -1,10 +1,28 @@
 @import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@700&family=PT+Sans&family=Roboto:wght@300&family=Shadows+Into+Light&display=swap');
-body {
+* {
     margin: 0;
     padding: 0;
-    font-family: 'Amatic SC', cursive;
-    background: #ffff;
+    border: none;
+}
+body {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 300;
+    color:  #34495E ;
+}
 
+/* heading and logo */
+
+h1, h2 {
+    
+    font-family: 'Amatic SC', cursive;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    color: #338FFF;
+    font-weight: 400px;
+}
+#logo {
+    float: left;
+    font-size: 280%;
 }
 
 nav ul {
