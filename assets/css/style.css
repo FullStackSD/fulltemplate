@@ -22,7 +22,9 @@ h1, h2 {
 }
 #logo {
     float: left;
-    font-size: 280%;
+    font-size: 350%;
+    margin-left: 20px;
+   
 }
 /* navigation links */
 
@@ -107,6 +109,32 @@ position: relative;
     position: absolute;
 
 }
+/* Routes section */
+
+#routes {
+    height: 600px
+    
+}
+#left-about{
+    padding-top :30px;
+    width: 33%;
+    float: left;
+    background-color: #338FFF;
+}
+#right-about{
+    padding-top :30px;
+    width: 33%;
+    float: right;
+    background-color: #FFC300;
+}
+
+#center-about{
+    padding-top :30px;
+    width: 33%;
+    margin: 0 auto;
+    background-color: #34495E;
+}
+
 nav ul {
     list-style: none;
     background-color: #FFC300;
