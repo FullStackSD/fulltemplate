@@ -110,18 +110,34 @@ position: relative;
 
 }
 /* Routes section */
+#travel-head {
+    font-size: 250%;
+    font-weight: 300px;
+    text-align: left;
+    padding-top: 30px;
 
+}
 #routes {
-    height: 600px
+    height: 600px;
+    background-color: #f9fafb;
     
     
 }
 #left-about{
     padding-top :30px;
-    width: 33%;
+    width: 50%;
     float: left;
     background-color: #f9fafb;
+
 }
+#via-photo {
+    background: url('../images/vialaplata1.jpg');
+    height: 300px;
+    width: 300px;
+}
+
+    
+
 #right-about{
     padding-top :30px;
     width: 33%;
@@ -141,13 +157,27 @@ hr {
     margin: 5px 0;
 }
 .left-about-heading {
-    width: 60%;
-    float: right;
+    width: 100%;
+    text-align: center;
     line-height: 20px;
     clear:both;
     margin-bottom: 50px;
 }
+
+.right-about-heading {
+    width: 60%;
+    float: left;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
 }
+.right-about-heading h2 {
+    text-align: right;
+}
+.right-about-heading p {
+    text-align: right;
+}
+
 
 nav ul {
     list-style: none;
