@@ -99,7 +99,7 @@ position: relative;
     height: 200px;
 
     padding-top: 30px;
-    padding-left: 10px;
+    padding-left: 30px;
 
     background-color: rgba(241, 196, 15, .7);
 
@@ -114,12 +114,13 @@ position: relative;
 #routes {
     height: 600px
     
+    
 }
 #left-about{
     padding-top :30px;
     width: 33%;
     float: left;
-    background-color: #338FFF;
+    background-color: #f9fafb;
 }
 #right-about{
     padding-top :30px;
@@ -133,6 +134,19 @@ position: relative;
     width: 33%;
     margin: 0 auto;
     background-color: #34495E;
+}
+hr {
+    border-top: 1px solid #338FFF;
+    width: 100%;
+    margin: 5px 0;
+}
+.left-about-heading {
+    width: 60%;
+    float: right;
+    line-height: 20px;
+    clear:both;
+    margin-bottom: 50px;
+}
 }
 
 nav ul {
