@@ -49,7 +49,7 @@ h1, h2 {
 .active {
     border-bottom: 1px solid #338FFF;
 }
-/* hero image */
+/* hero image and cover text */
 
 #hero-image {
     height: 500px;
@@ -64,6 +64,16 @@ h1, h2 {
 animation-name: hero-zoom;
 animation-duration: 5s;
 animation-fill-mode: forwards;
+position: relative;
+}
+
+#cover-text, #cover-text h2 {
+    color:#f9fafb;
+
+}
+#cover-text, #cover-text h3 {
+    color:#f9fafb;
+
 }
 
 /* creates the leve of zoom for hero image */
@@ -75,6 +85,27 @@ animation-fill-mode: forwards;
     to{
         transform: scale(1.1);
     }
+}
+
+#cover-text {
+    font-size: 200%;
+    font-family: 'Amatic SC', cursive; 
+    text-transform: uppercase;
+    letter-spacing: 2px;
+
+    width: 300px;
+    height: 200px;
+
+    padding-top: 30px;
+    padding-left: 10px;
+
+    background-color: rgba(241, 196, 15, .7);
+
+    bottom: 30px;
+    right: 150px;
+
+    position: absolute;
+
 }
 nav ul {
     list-style: none;
