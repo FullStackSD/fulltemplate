@@ -123,6 +123,7 @@ position: relative;
 #routes {
     height: 600px;
     background-color: #f9fafb;
+    width: 100%;
     
     
 }
@@ -144,16 +145,35 @@ position: relative;
     float: right;
    
 }
+#camino-shell {
+    background: url('../images/vialaplata1.jpg') no-repeat;
+    height: 400px;
+    width: 600px;
+    float: left;
+}
 
     
 
-#right-about{
+#right-about {
+    height: 600px;
     padding-top :30px;
-    width: 33%;
+    padding-left: 950px;
+    text-align: right;
     float: right;
+    letter-spacing: 4px;
+    line-height: 6px;
     background-color: #FFC300;
+    font-size: large;
+    margin-right: 0;
 }
+.right-line {
+    border-top: 10px dotted #338FFF;
+    width: 100%;
+    margin: 20px 0 20px 0;
+    text-align: right;
+    padding-bottom: 20px;
 
+}
 #center-about{
     padding-top :30px;
     width: 33%;
@@ -184,14 +204,14 @@ hr {
     float: left;
     line-height: 20px;
     clear:both;
-    margin-bottom: 50px;
+    margin-bottom: 60px;
 }
 .right-about-heading h2 {
-    text-align: right;
+    font-size: 250%;
+    text-align: left;
+    margin-bottom: 10px;
 }
-.right-about-heading p {
-    text-align: right;
-}
+
 
 
 nav ul {
